@@ -6,9 +6,8 @@ const deleteMovie = async(driver) => {
 
     await driver.findElement(By.xpath('//button')).click()
 
-    const movie = await driver.findElement(By.xpath('//li/span'))
+    await driver.findElement(By.xpath('//button[contains(text(),"x")]'))
     
-    await driver.findElement(By.xpath('//button'))
     
 }
 
